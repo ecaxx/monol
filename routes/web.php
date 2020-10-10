@@ -31,3 +31,5 @@ Route::get('/services', 'PagesController@services' );
 Auth::routes();
 
 Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
+
+Route::get('/profile', 'DashboardController@profile')->name('profile');
